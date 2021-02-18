@@ -1,0 +1,24 @@
+{
+  "name": "testRepo",
+  "version": "1.0.0",
+  "description": "this is a test",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blair221/testRepo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blair221/testRepo/issues"
+  },
+  "homepage": "https://github.com/Blair221/testRepo#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
