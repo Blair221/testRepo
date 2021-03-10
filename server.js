@@ -1,5 +1,6 @@
 const express = require('express')
 const app = express()
+const path = require('path');
 
 const port = 3000
 
@@ -11,7 +12,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/api', (req, res) => {
-    res.sendFile('./testApi/tempTest.json', (req, res) => {
+    res.sendFile(path.join(__dirname, './testApi/tempTest.json'), (req, res) => {
         res.send(Error)
     })
 })
