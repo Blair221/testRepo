@@ -1,0 +1,24 @@
+{
+  "name": "testrepo",
+  "version": "1.0.0",
+  "description": "this is a test",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blair221/testRepo.git"
+  },
+  "author": "Blair Brownlie-Edward",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blair221/testRepo/issues"
+  },
+  "homepage": "https://github.com/Blair221/testRepo#readme"
+}

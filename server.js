@@ -12,11 +12,8 @@ app.get('/', (req, res) => {
 })
 
 app.get('/api', (req, res) => {
-    res.sendFile(path.join(__dirname, './testApi/tempTest.json'), (req, res) => {
-        res.send(Error)
-    })
+    res.sendFile(path.join(__dirname, './testApi/tempTest.json'))
 })
-
 app.listen(port, function () {
     console.log(`listening on port:${port}`)
 })
