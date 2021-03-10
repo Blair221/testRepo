@@ -11,7 +11,9 @@ app.get('/', (req, res) => {
 })
 
 app.get('/api', (req, res) => {
-    res.sendFile()
+    res.sendFile('./testApi/tempTest.json', (req, res) => {
+        res.send(Error)
+    })
 })
 
 app.listen(port, function () {
