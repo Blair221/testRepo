@@ -6,8 +6,11 @@
   "dependencies": {
     "express": "^4.17.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^7.21.0"
+  },
   "scripts": {
+    "lint": "eslint",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
