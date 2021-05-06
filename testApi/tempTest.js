@@ -1,5 +1,4 @@
-{
-    "sensors": [
+db.temps.insert([
         {
             "sensor1": {
                 "temp": 0,
@@ -13,4 +12,4 @@
             }
         }
     ]
-}
+)
